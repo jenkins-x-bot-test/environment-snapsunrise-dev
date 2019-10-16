@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:snapsunrise/adminUser:password
+  username: admin
+dashboardAuthID: vault:snapsunrise:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:snapsunrise:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:snapsunrise/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:snapsunrise/prow:hmacToken
